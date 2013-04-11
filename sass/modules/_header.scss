@@ -1,0 +1,9 @@
+#site-header {
+	@include pie-clearfix;
+	background: #ccc;
+	
+	h1 {
+		font-size: 42px;
+		padding: 25px 0;
+	}
+}

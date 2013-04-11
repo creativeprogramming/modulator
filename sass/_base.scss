@@ -1,0 +1,42 @@
+$link_color: #3096dd;
+$font-family: "Helvetica Neue", clean, sans-serif;
+$base_font_color: #444;
+
+body {
+	background: #fff;
+	font-size: 100%;
+	font-family: $font-family;
+	line-height: 1.2;
+	color: $base_font_color;
+}
+.wrapper {
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+}
+
+.wrap {
+	@include pie-clearfix;
+	position: relative;
+	margin: 0 auto;
+	padding-right: 3%;
+	padding-left: 3%;
+}
+a {
+	color: $link_color;
+	text-decoration: none;
+}
+#content {
+	.wrap {
+		padding: 25px 3%;
+	}
+	p, h2 {
+		margin: 1rem 0;
+	}
+	h1 {
+		font-size: 42px;
+	}
+	h2 {
+		font-size: 28px;
+	}
+}

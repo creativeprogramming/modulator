@@ -1,0 +1,19 @@
+#nav {
+	@include pie-clearfix;
+	background: #ddd;
+	
+	li {
+		margin: 0;
+	}
+}
+.nav-link {
+	float: left;
+	width: 16%;
+	display: block;
+	padding: 20px 2%;
+	text-align: center;
+	
+	&:hover {
+		background: #ccc;
+	}
+}
