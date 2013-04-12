@@ -1,16 +1,20 @@
 $ ->
 
 RM = ->
-	
+
+$iframe = $('#master-modules')
+$iframe_contents = $iframe.contents()
+
 RM.iframeHeight = ->
-	$iframe = $('#master-modules')
 	$w_height = $(window).height()
 	$iframe.css( 
 		height:$w_height-85+"px"
 	)
+	$iframe_contents.find('#grid > .col').css( 
+		height:$w_height-85+"px"
+	)
 
 RM.modulatorDisplayWidth = ->
-	$iframe = $('#master-modules')
 	$iframe_width = $iframe.width()
 	$modulator_display = $('#modulator-display')
 	$modulator_display.css( 
@@ -18,7 +22,6 @@ RM.modulatorDisplayWidth = ->
 	)
 
 RM.displayViewportWidth = ->
-	$iframe = $('#master-modules')
 	$iframe_width = $iframe.width()
 	$("#viewport-width-container p").html($iframe_width+" px")
 
@@ -41,7 +44,6 @@ RM.radioStates = ->
 RM.deviceWidths = (current) ->
 	device_w = current.next().data('res-width')
 	device_h = current.next().data('res-height')
-	$iframe = $('#master-modules')
 	if device_w is 100 then $iframe.css(maxWidth:100+"%",height:RM.iframeHeight())
 	else
 		$iframe.css( 
@@ -52,8 +54,7 @@ RM.deviceWidths = (current) ->
 	RM.modulatorDisplayWidth()
 
 RM.showHideModules = (setter) ->
-	$iframe = $('#master-modules').contents()
-	$iframe.find('#'+setter).toggle()
+	$iframe_contents.find('#'+setter).toggle()
 	
 $(window).on('resize', ->
 	RM.iframeHeight()

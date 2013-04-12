@@ -7,6 +7,12 @@ html(lang="en")
 		link(href='css/screen.css', media="screen, projection", rel="stylesheet", type="text/css")
 
 	body
+
+		#grid
+			grid_items = ["col", "col", "col", "col", "col", "col", "col", "col", "col", "col", "col", "col"]
+			each grid_item, i in grid_items
+				div(class="#{grid_item} #{grid_item}#{i}")
+
 		include modules/mast
 		include modules/nav
 		

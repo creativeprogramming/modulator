@@ -2,216 +2,23 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8283",
   "files" : {
-    "\/sass\/modules\/_entity.scss" : {
+    "\/css\/screen.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/modules\/_entity.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_entity.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/img\/avatar-tony-parker.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/avatar-tony-parker.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/avatar-tony-parker.png",
-      "initialSize" : 24000,
-      "fileType" : 8192
-    },
-    "\/img\/avatar-tim-duncan.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/avatar-tim-duncan.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/avatar-tim-duncan.png",
-      "initialSize" : 25436,
-      "fileType" : 8192
-    },
-    "\/js\/vendor\/jquery-1.9.1.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/jquery-1.9.1.min.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/vendor\/jquery-1.9.1.min-ck.js",
-      "fileType" : 64
-    },
-    "\/sass\/screen.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/screen.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/screen.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/img\/avatar-gary-neal.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/avatar-gary-neal.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/avatar-gary-neal.png",
-      "initialSize" : 23785,
-      "fileType" : 8192
-    },
-    "\/entity.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/entity.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/master.jade\/entity.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/master.jade\/entity.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 0,
-      "outputAbbreviatedPath" : "\/entity.html",
-      "fileType" : 512
-    },
-    "\/sass\/modules\/_footer.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/modules\/_footer.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_footer.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/js\/line-chart.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/line-chart.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/line-chart-ck.js",
-      "fileType" : 64
-    },
-    "\/sass\/_base.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/_base.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_base.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/master.jade\/viz-test.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/master.jade\/viz-test.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 0,
-      "outputAbbreviatedPath" : "\/viz-test.html",
-      "fileType" : 512
-    },
-    "\/sass\/modules\/_study.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/modules\/_study.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_study.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/sass\/modules\/_line-chart.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/modules\/_line-chart.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_line-chart.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/sass\/modules\/_bar-chart.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/modules\/_bar-chart.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_bar-chart.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/config.rb" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
-    },
-    "\/js\/main.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/main.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/main-ck.js",
-      "fileType" : 64
-    },
-    "\/stylesheets\/screen.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/stylesheets\/screen.css",
+      "inputAbbreviatedPath" : "\/css\/screen.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/sass\/modules\/_formalize.scss" : {
+    "\/master-modules.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/modules\/_formalize.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_formalize.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/master-modules.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/vendor\/tipsy.js" : {
       "ignoreWasSetByUser" : 0,
@@ -224,59 +31,113 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/tipsy-ck.js",
       "fileType" : 64
     },
-    "\/js\/entity-chart.js" : {
+    "\/sass\/_base.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/entity-chart.js",
+      "inputAbbreviatedPath" : "\/sass\/_base.scss",
       "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/entity-chart-ck.js",
-      "fileType" : 64
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_base.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
-    "\/img\/avatar-tiago-splitter.png" : {
+    "\/master.jade\/modulator.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/avatar-tiago-splitter.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/avatar-tiago-splitter.png",
-      "initialSize" : 23574,
-      "fileType" : 8192
-    },
-    "\/img\/player.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/player.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/player.png",
-      "initialSize" : 64124,
-      "fileType" : 8192
-    },
-    "\/master.jade\/partials\/header.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/master.jade\/partials\/header.jade",
+      "inputAbbreviatedPath" : "\/master.jade\/modulator.jade",
       "outputStyle" : 0,
       "compileDebug" : 0,
-      "outputAbbreviatedPath" : "\/header.html",
+      "outputAbbreviatedPath" : "\/modulator.html",
       "fileType" : 512
     },
-    "\/js\/master.js" : {
+    "\/master.jade\/master-modules.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/master.js",
-      "outputStyle" : 1,
+      "inputAbbreviatedPath" : "\/master.jade\/master-modules.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 0,
+      "outputAbbreviatedPath" : "\/master-modules.html",
+      "fileType" : 512
+    },
+    "\/sass\/screen.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/screen.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/screen.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/master.jade\/modules\/nav.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/master.jade\/modules\/nav.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 0,
+      "outputAbbreviatedPath" : "\/nav.html",
+      "fileType" : 512
+    },
+    "\/master.jade\/modules\/footer.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/master.jade\/modules\/footer.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 0,
+      "outputAbbreviatedPath" : "\/footer.html",
+      "fileType" : 512
+    },
+    "\/css\/modulator.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/modulator.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/modulator.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/modulator.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/sass\/modules\/nav.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/modules\/nav.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/nav.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/js\/modulator.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/modulator.js",
+      "outputStyle" : 0,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/master-ck.js",
+      "outputAbbreviatedPath" : "\/js\/modulator-ck.js",
       "fileType" : 64
     },
     "\/master.jade\/partials\/head.jade" : {
@@ -290,104 +151,41 @@
       "outputAbbreviatedPath" : "\/head.html",
       "fileType" : 512
     },
-    "\/js\/vendor\/formalize.js" : {
+    "\/coffeescripts\/master.coffee" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/formalize.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/vendor\/formalize-ck.js",
-      "fileType" : 64
-    },
-    "\/img\/avatar-stephen-jackson.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/avatar-stephen-jackson.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/avatar-stephen-jackson.png",
-      "initialSize" : 23913,
-      "fileType" : 8192
-    },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/master.jade\/partials\/footer.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/master.jade\/partials\/footer.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 0,
-      "outputAbbreviatedPath" : "\/footer.html",
-      "fileType" : 512
-    },
-    "\/js\/vendor\/d3-v3.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/d3-v3.min.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/vendor\/d3-v3.min-ck.js",
-      "fileType" : 64
-    },
-    "\/js\/master-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/master-ck.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/master-ck-ck.js",
-      "fileType" : 64
-    },
-    "\/coffeescripts\/main.coffee" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/coffeescripts\/main.coffee",
+      "inputAbbreviatedPath" : "\/coffeescripts\/master.coffee",
       "checkOutputStyle" : 0,
-      "minifyOutput" : 0,
-      "outputAbbreviatedPath" : "\/js\/main.js",
+      "minifyOutput" : 1,
+      "outputAbbreviatedPath" : "\/coffeescripts\/js\/master.js",
       "outputStyle" : 0,
       "fileType" : 32
     },
-    "\/sass\/modules\/_header.scss" : {
+    "\/sass\/modules\/_formalize.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/modules\/_header.scss",
+      "inputAbbreviatedPath" : "\/sass\/modules\/_formalize.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_header.css",
+      "outputAbbreviatedPath" : "\/css\/_formalize.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/bar-chart.js" : {
+    "\/sass\/modules\/_grid.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/bar-chart.js",
+      "inputAbbreviatedPath" : "\/sass\/modules\/_grid.scss",
       "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/bar-chart-ck.js",
-      "fileType" : 64
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_grid.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/master.jade\/index.jade" : {
       "ignoreWasSetByUser" : 0,
@@ -400,25 +198,102 @@
       "outputAbbreviatedPath" : "\/index.html",
       "fileType" : 512
     },
-    "\/viz-test.html" : {
+    "\/master.jade\/modules\/mast.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/viz-test.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/master.jade\/modules\/mast.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 0,
+      "outputAbbreviatedPath" : "\/mast.html",
+      "fileType" : 512
     },
-    "\/images\/button.png" : {
+    "\/sass\/modulator.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/button.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/button.png",
-      "initialSize" : 85,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/sass\/modulator.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/modulator.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/config.rb" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
+    },
+    "\/master.jade\/partials\/header.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/master.jade\/partials\/header.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 0,
+      "outputAbbreviatedPath" : "\/header.html",
+      "fileType" : 512
+    },
+    "\/master.jade\/partials\/footer.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/master.jade\/partials\/footer.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 0,
+      "outputAbbreviatedPath" : "\/footer.html",
+      "fileType" : 512
+    },
+    "\/sass\/modules\/_header.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/modules\/_header.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_header.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/js\/vendor\/jquery-1.9.1.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vendor\/jquery-1.9.1.min.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/vendor\/jquery-1.9.1.min-ck.js",
+      "fileType" : 64
+    },
+    "\/js\/master.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/master.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/master-ck.js",
+      "fileType" : 64
+    },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 2048
     },
     "\/master.jade\/partials\/footer-scripts.jade" : {
       "ignoreWasSetByUser" : 0,
@@ -431,16 +306,40 @@
       "outputAbbreviatedPath" : "\/footer-scripts.html",
       "fileType" : 512
     },
-    "\/js\/test-chart.js" : {
+    "\/js\/vendor\/formalize.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/test-chart.js",
+      "inputAbbreviatedPath" : "\/js\/vendor\/formalize.js",
       "outputStyle" : 0,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/test-chart-ck.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/formalize-ck.js",
       "fileType" : 64
+    },
+    "\/coffeescripts\/modulator.coffee" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/coffeescripts\/modulator.coffee",
+      "checkOutputStyle" : 0,
+      "minifyOutput" : 1,
+      "outputAbbreviatedPath" : "\/js\/modulator.js",
+      "outputStyle" : 0,
+      "fileType" : 32
+    },
+    "\/sass\/modules\/_footer.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/modules\/_footer.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_footer.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     }
   },
   "manualImportLinks" : [
@@ -624,7 +523,7 @@
   },
   "projectAttributes" : {
     "bourbonEnabled" : 0,
-    "displayValue" : "study",
+    "displayValue" : "modulator",
     "displayValueWasSetByUser" : 1,
     "compassEnabled" : 1
   }
