@@ -101,40 +101,25 @@ body {
   width: 100%;
 }
 
-/* line 18, ../sass/_base.scss */
-.wrap {
-  *zoom: 1;
-  position: relative;
-  margin: 0 auto;
-  padding-right: 3%;
-  padding-left: 3%;
-}
-/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.wrap:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* line 25, ../sass/_base.scss */
+/* line 17, ../sass/_base.scss */
 a {
   color: #3096dd;
   text-decoration: none;
 }
 
-/* line 30, ../sass/_base.scss */
-#content .wrap {
-  padding: 25px 3%;
+/* line 22, ../sass/_base.scss */
+#content .row {
+  padding: 25px 0;
 }
-/* line 33, ../sass/_base.scss */
+/* line 25, ../sass/_base.scss */
 #content p, #content h2 {
   margin: 1rem 0;
 }
-/* line 36, ../sass/_base.scss */
+/* line 28, ../sass/_base.scss */
 #content h1 {
   font-size: 42px;
 }
-/* line 39, ../sass/_base.scss */
+/* line 31, ../sass/_base.scss */
 #content h2 {
   font-size: 28px;
 }

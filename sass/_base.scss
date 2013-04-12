@@ -14,21 +14,13 @@ body {
 	position: relative;
 	width: 100%;
 }
-
-.wrap {
-	@include pie-clearfix;
-	position: relative;
-	margin: 0 auto;
-	padding-right: 3%;
-	padding-left: 3%;
-}
 a {
 	color: $link_color;
 	text-decoration: none;
 }
 #content {
-	.wrap {
-		padding: 25px 3%;
+	.row {
+		padding: 25px 0;
 	}
 	p, h2 {
 		margin: 1rem 0;
