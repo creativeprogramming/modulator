@@ -10,7 +10,7 @@ RM.iframeHeight = ->
 	$iframe.css( 
 		height:$w_height-85+"px"
 	)
-	$iframe_contents.find('#grid > .col').css( 
+	$iframe_contents.find('#grid .row > .col .in').css( 
 		height:$w_height-85+"px"
 	)
 

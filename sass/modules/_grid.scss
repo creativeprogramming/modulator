@@ -1,38 +1,103 @@
+.grid-wrap {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2%;
+    padding-left: 2%;
+    clear: both;
+}
+
+// Clearfix for rows and grid wrapper
+.grid-wrap:before,
+.grid-wrap:after
+.row:before,
+.row:after {
+    @extend .group:before;
+}
+.grid-wrap:after,
+.row:after {
+    @extend .group:after;
+}
+// Required for IE7
+.grid-wrap,
+.row {
+    @extend .group;
+}
+
+.row {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: $page-max + px;
+    max-width: $page-max/$base + rem;
+}
+
+.lt-ie9 {
+    .grid-wrap > .row {
+        min-width: 900px;
+        max-width: $page-max + px;
+    }
+}
+
+// Re-aligns grid when nested. Apply to a row that is nested.
+.is-nested {
+    margin-right: -$gutter/2 + px;
+    margin-right: (-$gutter/2)/$base + rem;
+    margin-left: -$gutter/2 + px;
+    margin-left: (-$gutter/2)/$base + rem;
+}
+
+// Float the columns
+.col {
+    float: left;
+}
+
+// Reverse col float
+
+.col-r {
+    float: right;
+}
+
+// Gutter spacing applied to an inner element so we can support IE7
+.col > .in {
+    margin-right: $gutter/2 + px;
+    margin-right: ($gutter/2)/$base + rem;
+    margin-left: $gutter/2 + px;
+    margin-left: ($gutter/2)/$base + rem;
+}
+
+@include grid(null);
+
 #grid {
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 96%;
+	max-width: 1300px;
 	z-index: 999;
-}
-
-.col {
-	@include transition;
-	width: 6.333333333333%;
-	margin: 0 1%;
-	height: 300px;
-	display: block;
-	position: relative;
-	float: left;
-	background: rgba(222,0,0,.15);
-	overflow-y: hidden;
 	
-	&:before {
-		content: '';
-		height: 2000px;
-		width: 100%;
+	.col > .in {
+		@include transition;
+		height: 1500px;
 		display: block;
-		position: absolute;
-		left: 0;
-		border-left: 1px solid rgba(222,0,0,.2);
-	}
-	&:after {
-		content: '';
-		height: 2000px;
-		width: 100%;
-		display: block;
-		position: absolute;
-		right: 0;
-		border-right: 1px solid rgba(222,0,0,.2);		
+		position: relative;
+		background: rgba(222,0,0,.15);
+	
+		&:before {
+			content: '';
+			height: 2000px;
+			width: 2px;
+			display: block;
+			position: absolute;
+			left: 0;
+			border-left: 1px solid rgba(222,0,0,.2);
+		}
+		&:after {
+			content: '';
+			height: 2000px;
+			width: 3px;
+			display: block;
+			position: absolute;
+			right: 0;
+			border-right: 1px solid rgba(222,0,0,.2);		
+		}
 	}
 }

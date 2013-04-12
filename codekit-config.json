@@ -31,6 +31,17 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/tipsy-ck.js",
       "fileType" : 64
     },
+    "\/master.jade\/modulator.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/master.jade\/modulator.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 0,
+      "outputAbbreviatedPath" : "\/modulator.html",
+      "fileType" : 512
+    },
     "\/sass\/_base.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -43,17 +54,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/master.jade\/modulator.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/master.jade\/modulator.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 0,
-      "outputAbbreviatedPath" : "\/modulator.html",
-      "fileType" : 512
-    },
     "\/master.jade\/master-modules.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -63,6 +63,17 @@
       "outputStyle" : 0,
       "compileDebug" : 0,
       "outputAbbreviatedPath" : "\/master-modules.html",
+      "fileType" : 512
+    },
+    "\/master.jade\/modules\/nav.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/master.jade\/modules\/nav.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 0,
+      "outputAbbreviatedPath" : "\/nav.html",
       "fileType" : 512
     },
     "\/sass\/screen.scss" : {
@@ -76,17 +87,6 @@
       "outputAbbreviatedPath" : "\/css\/screen.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/master.jade\/modules\/nav.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/master.jade\/modules\/nav.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 0,
-      "outputAbbreviatedPath" : "\/nav.html",
-      "fileType" : 512
     },
     "\/master.jade\/modules\/footer.jade" : {
       "ignoreWasSetByUser" : 0,
@@ -117,6 +117,18 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/sass\/mixins.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/mixins.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/mixins.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/sass\/modules\/nav.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -129,16 +141,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/modulator.js" : {
+    "\/sass\/modules\/_formalize.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/modulator.js",
+      "inputAbbreviatedPath" : "\/sass\/modules\/_formalize.scss",
       "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/modulator-ck.js",
-      "fileType" : 64
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_formalize.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/master.jade\/partials\/head.jade" : {
       "ignoreWasSetByUser" : 0,
@@ -163,17 +176,27 @@
       "outputStyle" : 0,
       "fileType" : 32
     },
-    "\/sass\/modules\/_formalize.scss" : {
+    "\/js\/modulator.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/modules\/_formalize.scss",
+      "inputAbbreviatedPath" : "\/js\/modulator.js",
       "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_formalize.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/modulator-ck.js",
+      "fileType" : 64
+    },
+    "\/master.jade\/index.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/master.jade\/index.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 0,
+      "outputAbbreviatedPath" : "\/index.html",
+      "fileType" : 512
     },
     "\/sass\/modules\/_grid.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -186,17 +209,6 @@
       "outputAbbreviatedPath" : "\/css\/_grid.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/master.jade\/index.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/master.jade\/index.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 0,
-      "outputAbbreviatedPath" : "\/index.html",
-      "fileType" : 512
     },
     "\/master.jade\/modules\/mast.jade" : {
       "ignoreWasSetByUser" : 0,
@@ -275,17 +287,6 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/jquery-1.9.1.min-ck.js",
       "fileType" : 64
     },
-    "\/js\/master.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/master.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/master-ck.js",
-      "fileType" : 64
-    },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -305,6 +306,17 @@
       "compileDebug" : 0,
       "outputAbbreviatedPath" : "\/footer-scripts.html",
       "fileType" : 512
+    },
+    "\/js\/master.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/master.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/master-ck.js",
+      "fileType" : 64
     },
     "\/js\/vendor\/formalize.js" : {
       "ignoreWasSetByUser" : 0,

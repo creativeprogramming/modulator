@@ -1,4 +1,4 @@
-/* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -74,13 +74,14 @@ body {
 /* line 11, ../sass/modulator.scss */
 iframe {
   width: 100%;
+  max-width: 1300px;
   height: 1000px;
   z-index: 1;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 18, ../sass/modulator.scss */
+/* line 19, ../sass/modulator.scss */
 #modulator-header {
   position: fixed;
   right: 0;
@@ -88,40 +89,40 @@ iframe {
   width: 240px;
 }
 
-/* line 24, ../sass/modulator.scss */
+/* line 25, ../sass/modulator.scss */
 fieldset[name="device-check"] {
   overflow: auto;
   height: 200px;
   border-radius: 3px;
 }
 
-/* line 29, ../sass/modulator.scss */
+/* line 30, ../sass/modulator.scss */
 .modulator-nav {
   margin: 0 20px 20px;
   overflow: auto;
   border-radius: 3px;
 }
-/* line 34, ../sass/modulator.scss */
+/* line 35, ../sass/modulator.scss */
 .modulator-nav li {
   position: relative;
 }
-/* line 37, ../sass/modulator.scss */
+/* line 38, ../sass/modulator.scss */
 .modulator-nav li.active label {
   background: #444;
   color: #ddd;
   text-shadow: 0 1px 1px #111111;
 }
-/* line 42, ../sass/modulator.scss */
+/* line 43, ../sass/modulator.scss */
 .modulator-nav li.active label:hover {
   background: #474747;
 }
-/* line 47, ../sass/modulator.scss */
+/* line 48, ../sass/modulator.scss */
 .modulator-nav input {
   position: absolute;
   top: 11px;
   left: 5px;
 }
-/* line 52, ../sass/modulator.scss */
+/* line 53, ../sass/modulator.scss */
 .modulator-nav label {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -136,13 +137,13 @@ fieldset[name="device-check"] {
   text-decoration: none;
   border-radius: 2px;
 }
-/* line 63, ../sass/modulator.scss */
+/* line 64, ../sass/modulator.scss */
 .modulator-nav label:hover {
   background: #333;
   cursor: pointer;
 }
 
-/* line 69, ../sass/modulator.scss */
+/* line 70, ../sass/modulator.scss */
 #modulator-display {
   *zoom: 1;
   position: relative;
@@ -152,18 +153,18 @@ fieldset[name="device-check"] {
   width: 100%;
   height: 60px;
 }
-/* line 38, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 #modulator-display:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 78, ../sass/modulator.scss */
+/* line 79, ../sass/modulator.scss */
 #modulator-display .modulator-wrap {
   margin-top: 25px;
 }
 
-/* line 82, ../sass/modulator.scss */
+/* line 83, ../sass/modulator.scss */
 #modulator-display-height {
   position: absolute;
   left: 0;
@@ -171,13 +172,13 @@ fieldset[name="device-check"] {
   width: 0px;
   height: 100%;
 }
-/* line 88, ../sass/modulator.scss */
+/* line 89, ../sass/modulator.scss */
 #modulator-display-height .modulator-wrap {
   margin-top: 105px;
   margin-left: 20px;
 }
 
-/* line 93, ../sass/modulator.scss */
+/* line 94, ../sass/modulator.scss */
 .modulator-rule {
   color: transparent;
   position: relative;
@@ -188,7 +189,7 @@ fieldset[name="device-check"] {
   border-right: 1px solid #bbbbbb;
   border-left: 1px solid #bbbbbb;
 }
-/* line 103, ../sass/modulator.scss */
+/* line 104, ../sass/modulator.scss */
 .modulator-rule:after {
   content: "";
   position: absolute;
@@ -198,13 +199,13 @@ fieldset[name="device-check"] {
   border-bottom: 1px solid #bbbbbb;
 }
 
-/* line 112, ../sass/modulator.scss */
+/* line 113, ../sass/modulator.scss */
 #viewport-width-container {
   width: 100%;
   text-align: center;
   margin: 10px auto 0;
 }
-/* line 117, ../sass/modulator.scss */
+/* line 118, ../sass/modulator.scss */
 #viewport-width-container > p {
   position: relative;
   z-index: 2;

@@ -1,0 +1,174 @@
+$gutter: 20;
+$base: 16;
+$page-max: 1300;
+
+// Custom Inline-block mixin
+@mixin inline-block {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+// Font Smoothing mixin
+@mixin font-smoothing($aliasing: antialiased) {
+	-webkit-font-smoothing: $aliasing;
+}
+
+// Grid Mixin, parameter indicates media query modifier
+@mixin grid($x) {
+    // Hide/Show Grid Elements
+    .g#{$x}-is-hidden {
+        display: none;
+    }
+    .g#{$x}-is-shown {
+        display: block;
+    }
+
+    // Optional extra gutter space.
+    .col > .in {
+        // Extra right gutter
+        &.g#{$x}-ex-rt {
+            margin-right: (($gutter/2) + $gutter) + px;
+            margin-right: ((($gutter/2) + $gutter)/$base) + rem;
+        }
+        // Extra left gutter
+        &.g#{$x}-ex-lt {
+            margin-left: (($gutter/2) + $gutter) + px;
+            margin-left: ((($gutter/2) + $gutter)/$base) + rem;
+        }
+    }
+
+    // Apply .g[x]-rtl to a row if reversing the floats direction is disirable.
+    .g#{$x}-rtl .col {
+        float: right;
+        _position:relative;
+        _left:-3px;
+        _margin-right:-3px;
+    }
+
+    // Base grid widths.
+    .g#{$x}-1of1 { width: 100%; }
+    .g#{$x}-1of2 { width: 50%; }
+    .g#{$x}-1of3 { width: 33.33333%; }
+    .g#{$x}-2of3 { width: 66.66666%; }
+    .g#{$x}-1of4 { width: 25%; }
+    .g#{$x}-3of4 { width: 75%; }
+    .g#{$x}-1of5 { width: 20%; }
+    .g#{$x}-2of5 { width: 40%; }
+    .g#{$x}-3of5 { width: 60%; }
+    .g#{$x}-4of5 { width: 80%; }
+    .g#{$x}-1of6 { width: 16.66666%; }
+    .g#{$x}-4of6 { width: 66.66666%; }
+    .g#{$x}-5of6 { width: 83.33333%; }
+    .g#{$x}-5of12 { width: 41.66666%; }
+    .g#{$x}-7of12 { width: 58.33333%; }
+		.g#{$x}-full-grid { width: 8.33333%;}
+
+    // Apply to the last column in a row
+    .lt-ie8 .g#{$x}-last-col {
+        float: right;
+        margin-left: -1px;
+    }
+
+    // Different last-col styles needed for reversed columns
+    .g#{$x}-rtl .g#{$x}-last-col {
+        _right:-3px;
+        _margin-left:-3px;
+        _margin-right:0;
+        _left:0;
+        float: left;
+    }
+
+
+}
+
+@mixin form-layout($y) {
+
+    // Adjusts forms for grid layout
+    
+    .g#{$y}-fl {
+        margin-top: 14px;
+        margin-top: 14/$base + rem;
+        margin-bottom: 14px;
+        margin-bottom: 14/$base + rem;
+
+        .input-wrap {
+            margin: 0;
+        }
+        .form-address {
+            margin: 0 0 5px;
+        }
+    }
+}
+
+// Media Block
+@mixin media($i) {
+    .g#{$i}-media, .g#{$i}-media .bd {
+        overflow: hidden;
+        *overflow: visible;
+        zoom: 1;
+    }
+    .g#{$i}-media .img {
+        float: left;
+    }
+    .g#{$i}-media .img img {
+        display: block; 
+    }
+    .g#{$i}-media .imgExt { 
+        float: right;
+    }
+}
+// Clearfix mixin // added 3/1 jw
+@mixin clearfix {
+	&:before, &:after {
+		content:"";
+		display:table;
+	}
+
+	&:after {
+		clear: both;
+	}
+
+	& {
+		zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+	}
+}
+.clearfix {
+	@include clearfix; // @extend .clearfix;
+}
+
+// Set box model to not include border/padding
+@mixin border-box {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+.border-box {
+	@include border-box; // @extend .border-box;
+}
+
+// No transtion
+@mixin no-transition {
+	-moz-transition: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	-ms-transition: none;
+	transition: none;
+}
+
+@mixin ir {
+  background-color: transparent;
+  border: 0;
+	font-size: 0;
+	color: transparent;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+		
+		&:before {
+	    content: "";
+	    display: block;
+	    width: 0;
+	    height: 100%;
+		}
+}
