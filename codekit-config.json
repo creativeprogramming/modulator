@@ -49,6 +49,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/master.jade\/master-modules.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/master.jade\/master-modules.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 0,
+      "outputAbbreviatedPath" : "\/master-modules.html",
+      "fileType" : 512
+    },
     "\/sass\/layout\/_grid--mq2.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -61,28 +72,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/modules\/_footer.scss" : {
+    "\/master-modules.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/modules\/_footer.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_footer.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/master.jade\/master-modules.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/master.jade\/master-modules.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 0,
-      "outputAbbreviatedPath" : "\/master-modules.html",
-      "fileType" : 512
+      "inputAbbreviatedPath" : "\/master-modules.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/sass\/_base.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -96,24 +93,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/master-modules.html" : {
+    "\/sass\/modules\/_footer.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/master-modules.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/sass\/modules\/nav.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/modules\/nav.scss",
+      "inputAbbreviatedPath" : "\/sass\/modules\/_footer.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/nav.css",
+      "outputAbbreviatedPath" : "\/css\/_footer.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -170,6 +158,18 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/coffeescripts\/modulator.coffee" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/coffeescripts\/modulator.coffee",
+      "checkOutputStyle" : 0,
+      "minifyOutput" : 1,
+      "outputAbbreviatedPath" : "\/js\/modulator.js",
+      "outputStyle" : 0,
+      "fileType" : 32
+    },
     "\/master.jade\/modules\/mast.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -202,6 +202,18 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/sass\/modules\/_nav.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/modules\/_nav.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_nav.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/master.jade\/modulator.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -212,18 +224,6 @@
       "compileDebug" : 0,
       "outputAbbreviatedPath" : "\/modulator.html",
       "fileType" : 512
-    },
-    "\/coffeescripts\/modulator.coffee" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/coffeescripts\/modulator.coffee",
-      "checkOutputStyle" : 0,
-      "minifyOutput" : 1,
-      "outputAbbreviatedPath" : "\/js\/modulator.js",
-      "outputStyle" : 0,
-      "fileType" : 32
     },
     "\/sass\/layout\/_grid--mq6.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -316,14 +316,16 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/formalize-ck.js",
       "fileType" : 64
     },
-    "\/index.html" : {
+    "\/master.jade\/modules\/footer.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/master.jade\/modules\/footer.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 0,
+      "outputAbbreviatedPath" : "\/footer.html",
+      "fileType" : 512
     },
     "\/css\/screen.css" : {
       "ignoreWasSetByUser" : 0,
@@ -346,29 +348,14 @@
       "outputStyle" : 0,
       "fileType" : 32
     },
-    "\/sass\/layout\/_grid--mq4.scss" : {
+    "\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/layout\/_grid--mq4.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_grid--mq4.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/sass\/media-queries.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/media-queries.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/media-queries.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 2048
     },
     "\/css\/modulator.css" : {
       "ignoreWasSetByUser" : 0,
@@ -390,16 +377,29 @@
       "outputAbbreviatedPath" : "\/footer.html",
       "fileType" : 512
     },
-    "\/master.jade\/modules\/footer.jade" : {
+    "\/sass\/media-queries.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/master.jade\/modules\/footer.jade",
+      "inputAbbreviatedPath" : "\/sass\/media-queries.scss",
       "outputStyle" : 0,
-      "compileDebug" : 0,
-      "outputAbbreviatedPath" : "\/footer.html",
-      "fileType" : 512
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/media-queries.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/layout\/_grid--mq4.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/layout\/_grid--mq4.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_grid--mq4.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/sass\/modules\/_header.scss" : {
       "ignoreWasSetByUser" : 0,

@@ -75,7 +75,6 @@
 	z-index: 999;
 	
 	.col > .in {
-		@include transition;
 		height: 1500px;
 		display: block;
 		position: relative;

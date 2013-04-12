@@ -556,7 +556,7 @@ optgroup::-moz-focus-inner {
   padding: 25px 0;
 }
 
-/* line 1, ../sass/modules/nav.scss */
+/* line 1, ../sass/modules/_nav.scss */
 #nav {
   *zoom: 1;
   background: #ddd;
@@ -567,12 +567,12 @@ optgroup::-moz-focus-inner {
   display: table;
   clear: both;
 }
-/* line 5, ../sass/modules/nav.scss */
+/* line 5, ../sass/modules/_nav.scss */
 #nav li {
   margin: 0;
 }
 
-/* line 9, ../sass/modules/nav.scss */
+/* line 9, ../sass/modules/_nav.scss */
 .nav-link {
   float: left;
   width: 16%;
@@ -580,7 +580,7 @@ optgroup::-moz-focus-inner {
   padding: 20px 2%;
   text-align: center;
 }
-/* line 16, ../sass/modules/nav.scss */
+/* line 16, ../sass/modules/_nav.scss */
 .nav-link:hover {
   background: #ccc;
 }
@@ -779,16 +779,12 @@ optgroup::-moz-focus-inner {
 }
 /* line 77, ../sass/modules/_grid.scss */
 #grid .col > .in {
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s;
   height: 1500px;
   display: block;
   position: relative;
   background: rgba(222, 0, 0, 0.15);
 }
-/* line 84, ../sass/modules/_grid.scss */
+/* line 83, ../sass/modules/_grid.scss */
 #grid .col > .in:before {
   content: '';
   height: 2000px;
@@ -798,7 +794,7 @@ optgroup::-moz-focus-inner {
   left: 0;
   border-left: 1px solid rgba(222, 0, 0, 0.2);
 }
-/* line 93, ../sass/modules/_grid.scss */
+/* line 92, ../sass/modules/_grid.scss */
 #grid .col > .in:after {
   content: '';
   height: 2000px;
