@@ -1,11 +1,7 @@
-$link_color: #3096dd;
-$font-family: "Helvetica Neue", clean, sans-serif;
-$base_font_color: #444;
-
 body {
 	background: #fff;
 	font-size: 100%;
-	font-family: $font-family;
+	font-family: $primary-type;
 	line-height: 1.2;
 	color: $base_font_color;
 }
@@ -15,7 +11,7 @@ body {
 	width: 100%;
 }
 a {
-	color: $link_color;
+	color: $color-3;
 	text-decoration: none;
 }
 #content {

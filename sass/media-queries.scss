@@ -1,0 +1,43 @@
+// Media Queries
+
+// The media query styles are included in separate, breakpoint specific files.
+// The media query value is separated by a double dash ( --mq# )
+// Each of these files should also be included in the separate ie.scss stylesheet
+// without the media queries. Because older versions of IE (7 & 8) do not natively support
+// Media Queries, this is necessary so that IE7-8 can render in a "desktop" friendly way.
+
+@media #{$mq-1} {
+
+	@import "layout/grid--mq1";	
+	
+}
+
+@media #{$mq-2} {
+
+	@import "layout/grid--mq2";
+
+}
+
+@media #{$mq-3} {
+
+	@import "layout/grid--mq3";
+
+}
+
+@media #{$mq-4} {
+
+	@import "layout/grid--mq4";
+	
+}
+
+@media #{$mq-5} {
+
+	@import "layout/grid--mq5";
+	
+}
+
+@media #{$mq-6} {
+	
+	@import "layout/grid--mq6";
+
+}

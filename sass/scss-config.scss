@@ -1,0 +1,53 @@
+// This file includes global variables, mixins, and the various CSS Partials
+// That complete the site. Please update and maintain the comments of this file
+// when changes are made to it. ESPECIALLY THE COLORS!!
+
+	//	Mixins
+		@import "mixins";
+
+	// 	Compass
+		//	http://compass-style.org/
+		//
+		// 	Compass is a SASS Authoring Library.
+		// 	Import only neccessary partials
+		// 	to maintain compile performance.
+		@import "compass/reset";
+		@import "compass/utilities";
+		@import "compass/css3";
+
+	// 	Layout Variables
+		$base: 16;
+		$gutter: 20;
+		$page-max: 1300;
+
+	// 	Media Queries
+		$mq-1: "only screen and (min-width: 25.5em)";
+		$mq-2: "only screen and (min-width: 32em)";
+		$mq-3: "only screen and (min-width: 43.5em)";
+		$mq-4: "only screen and (min-width: 52.5em)";
+		$mq-5: "only screen and (min-width: 62em)";
+		$mq-6: "only screen and (min-width: 70.5em)";
+		$mq-7: "only screen and (min-width: 79.5em)";
+		$mq-8: "only screen and (min-width: 84.375em)";
+		$mq-9: "only screen and (min-width: 93.75em)";
+		$mq-retina: "only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi)";
+
+	// 	Color
+		$base-font-color: #444;
+		$color-1: #1d2172; 					// Purple
+		$color-2: #2e338c; 					// Purple Highlight
+		$color-2t: rgba(29,33,114,.85);		// Purple Highlight - transparent
+		$color-3: #2badd9; 					// Azure
+		$color-4: #96b711; 					// Green
+		$color-5: #949494; 					// Gray
+		$color-6: #f8f8f8; 					// Off White
+		$color-7: #f1f1f1; 					// Even More Off White
+		$color-8: #e8e8e8; 					// Alternative Gray
+		$color-9: #e55302; 					// Blood Orange
+
+	// 	Consistent border colors
+		$border: #c5c5c5;
+
+	// 	Typefaces
+		$primary-type: "Helvetica Neue", clean, sans-serif;
+		$secondary-type: "Georgia", serif;

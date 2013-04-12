@@ -1,10 +1,11 @@
-@import "compass/reset";
-@import "compass/utilities";
-@import "compass/css3";
-@import "mixins";
+@import "scss-config";
+
 @import "base";
 @import "modules/formalize";
 @import "modules/header";
 @import "modules/nav";
 @import "modules/footer";
 @import "modules/grid";
+
+//	Media Queries
+@import "media-queries"; // Media Queries partials broken into a seprate import

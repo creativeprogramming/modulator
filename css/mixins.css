@@ -1,0 +1,21 @@
+/* line 119, ../sass/mixins.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+/* line 124, ../sass/mixins.scss */
+.clearfix:after {
+  clear: both;
+}
+/* line 128, ../sass/mixins.scss */
+.clearfix {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+}
+
+/* line 142, ../sass/mixins.scss */
+.border-box {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
